@@ -1924,6 +1924,7 @@ function CataQuestFixes.Load()
             [questKeys.extraObjectives] = {{{[zoneIDs.AZSHARA] = {{29.06,66.41}}},Questie.ICON_TYPE_EVENT,l10n("Deliver the Stonified Miner here")}},
         },
         [14193] = { -- Nothing a Couple of Melons Won't Fix
+            [questKeys.requiredRaces] = raceKeys.ALL_ALLIANCE,
             [questKeys.objectives] = {nil,{{195438}}},
             [questKeys.requiredSourceItems] = {48106},
         },
@@ -2155,6 +2156,10 @@ function CataQuestFixes.Load()
             [questKeys.preQuestSingle] = {14358},
             [questKeys.requiredSourceItems] = {48857},
             [questKeys.specialFlags] = specialFlags.REPEATABLE,
+        },
+        [14360] = { -- Nothing a Couple of Melons Won't Fix
+            [questKeys.requiredRaces] = raceKeys.ALL_HORDE,
+            [questKeys.preQuestSingle] = {14191},
         },
         [14361] = { -- Peace of Mind
             [questKeys.preQuestSingle] = {14354},
